@@ -1,0 +1,12 @@
+platform :ios, '10.3'
+target 'FindYou' do
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'MBProgressHUD'
+pod 'RxSwift', '~> 3.4.0'
+pod 'RxCocoa', '~> 3.4.0'
+pod 'RxDataSources', '~> 1.0.3'
+pod 'IQKeyboardManagerSwift'
+use_frameworks!
+end
+

@@ -7,14 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		227C9E976012117554649BE4 /* Pods_FindYou.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F5E4C668E4383E86EE7586 /* Pods_FindYou.framework */; };
 		DF8239911F6B56D200620F9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8239901F6B56D200620F9F /* AppDelegate.swift */; };
 		DF8239931F6B56D200620F9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8239921F6B56D200620F9F /* ViewController.swift */; };
 		DF8239961F6B56D200620F9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8239941F6B56D200620F9F /* Main.storyboard */; };
 		DF8239981F6B56D200620F9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF8239971F6B56D200620F9F /* Assets.xcassets */; };
 		DF82399B1F6B56D200620F9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8239991F6B56D200620F9F /* LaunchScreen.storyboard */; };
+		DF8239CC1F6B570500620F9F /* GEModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8239A51F6B570500620F9F /* GEModel.swift */; };
+		DF8239CD1F6B570500620F9F /* GETabBarC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8239A61F6B570500620F9F /* GETabBarC.swift */; };
+		DF8239CE1F6B570500620F9F /* GEView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8239A71F6B570500620F9F /* GEView.swift */; };
+		DF8239CF1F6B570500620F9F /* GEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8239A81F6B570500620F9F /* GEViewController.swift */; };
+		DF8239D01F6B570500620F9F /* GEViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8239A91F6B570500620F9F /* GEViewModel.swift */; };
+		DF8239D11F6B570500620F9F /* GEBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8239AB1F6B570500620F9F /* GEBox.swift */; };
+		DF8239D21F6B570500620F9F /* ExtensionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8239AD1F6B570500620F9F /* ExtensionString.swift */; };
+		DF8239D31F6B570500620F9F /* ExtensionTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8239AE1F6B570500620F9F /* ExtensionTableView.swift */; };
+		DF8239D41F6B570500620F9F /* ExtensionUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8239AF1F6B570500620F9F /* ExtensionUIColor.swift */; };
+		DF8239D51F6B570500620F9F /* ExtensionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8239B01F6B570500620F9F /* ExtensionUIView.swift */; };
+		DF8239D61F6B570500620F9F /* GEUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8239B21F6B570500620F9F /* GEUserModel.swift */; };
+		DF8239D71F6B570500620F9F /* GEKeyframeAnimat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8239B41F6B570500620F9F /* GEKeyframeAnimat.swift */; };
+		DF8239D81F6B570500620F9F /* GEManageHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8239B51F6B570500620F9F /* GEManageHUD.swift */; };
+		DF8239D91F6B570500620F9F /* GERequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8239B61F6B570500620F9F /* GERequest.swift */; };
+		DF8239DA1F6B570500620F9F /* GETool.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8239B71F6B570500620F9F /* GETool.swift */; };
+		DF8239DB1F6B570500620F9F /* PublicFundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8239B81F6B570500620F9F /* PublicFundation.swift */; };
+		DF8239DC1F6B570500620F9F /* GEAutoScorllView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8239BA1F6B570500620F9F /* GEAutoScorllView.swift */; };
+		DF8239DD1F6B570500620F9F /* GECommonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8239BB1F6B570500620F9F /* GECommonView.swift */; };
+		DF8239DE1F6B570500620F9F /* GEHintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8239BC1F6B570500620F9F /* GEHintView.swift */; };
+		DF8239DF1F6B570500620F9F /* GEIndicateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8239BD1F6B570500620F9F /* GEIndicateView.swift */; };
+		DF8239E01F6B570500620F9F /* GEPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8239BE1F6B570500620F9F /* GEPlayerView.swift */; };
+		DF8239E11F6B570500620F9F /* EmitterBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8239C31F6B570500620F9F /* EmitterBtn.m */; };
+		DF8239E21F6B570500620F9F /* sort-1.png in Resources */ = {isa = PBXBuildFile; fileRef = DF8239C41F6B570500620F9F /* sort-1.png */; };
+		DF8239E31F6B570500620F9F /* sort-2.png in Resources */ = {isa = PBXBuildFile; fileRef = DF8239C51F6B570500620F9F /* sort-2.png */; };
+		DF8239E41F6B570500620F9F /* sort-3.png in Resources */ = {isa = PBXBuildFile; fileRef = DF8239C61F6B570500620F9F /* sort-3.png */; };
+		DF8239E51F6B570500620F9F /* sort-4.png in Resources */ = {isa = PBXBuildFile; fileRef = DF8239C71F6B570500620F9F /* sort-4.png */; };
+		DF8239E61F6B570500620F9F /* sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = DF8239C81F6B570500620F9F /* sparkle.png */; };
+		DF8239E71F6B570500620F9F /* GEAPIMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8239CA1F6B570500620F9F /* GEAPIMacro.swift */; };
+		DF8239E81F6B570500620F9F /* GEGlobalMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8239CB1F6B570500620F9F /* GEGlobalMacro.swift */; };
+		DF823A111F6B5D5A00620F9F /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF823A0F1F6B5D5A00620F9F /* HomeVC.swift */; };
+		DF823A121F6B5D5A00620F9F /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF823A101F6B5D5A00620F9F /* HomeVC.xib */; };
+		DF823A151F6B5DAD00620F9F /* MineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF823A131F6B5DAD00620F9F /* MineVC.swift */; };
+		DF823A161F6B5DAD00620F9F /* MineVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF823A141F6B5DAD00620F9F /* MineVC.xib */; };
+		DF823A191F6B5DCD00620F9F /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF823A171F6B5DCD00620F9F /* SecondVC.swift */; };
+		DF823A1A1F6B5DCD00620F9F /* SecondVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF823A181F6B5DCD00620F9F /* SecondVC.xib */; };
+		DF823A1D1F6B5DE800620F9F /* ThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF823A1B1F6B5DE800620F9F /* ThirdVC.swift */; };
+		DF823A1E1F6B5DE800620F9F /* ThirdVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF823A1C1F6B5DE800620F9F /* ThirdVC.xib */; };
+		DF823A221F6BA62B00620F9F /* TestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF823A211F6BA62B00620F9F /* TestVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9BF72B525349F5A9B25EB405 /* Pods-FindYou.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindYou.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindYou/Pods-FindYou.debug.xcconfig"; sourceTree = "<group>"; };
+		D0F5E4C668E4383E86EE7586 /* Pods_FindYou.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindYou.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B89D11DA5320F53A2EA1BD /* Pods-FindYou.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindYou.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindYou/Pods-FindYou.release.xcconfig"; sourceTree = "<group>"; };
 		DF82398D1F6B56D200620F9F /* FindYou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindYou.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF8239901F6B56D200620F9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF8239921F6B56D200620F9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +64,46 @@
 		DF8239971F6B56D200620F9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF82399A1F6B56D200620F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF82399C1F6B56D200620F9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF8239A51F6B570500620F9F /* GEModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEModel.swift; sourceTree = "<group>"; };
+		DF8239A61F6B570500620F9F /* GETabBarC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GETabBarC.swift; sourceTree = "<group>"; };
+		DF8239A71F6B570500620F9F /* GEView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEView.swift; sourceTree = "<group>"; };
+		DF8239A81F6B570500620F9F /* GEViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEViewController.swift; sourceTree = "<group>"; };
+		DF8239A91F6B570500620F9F /* GEViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEViewModel.swift; sourceTree = "<group>"; };
+		DF8239AB1F6B570500620F9F /* GEBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEBox.swift; sourceTree = "<group>"; };
+		DF8239AD1F6B570500620F9F /* ExtensionString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionString.swift; sourceTree = "<group>"; };
+		DF8239AE1F6B570500620F9F /* ExtensionTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionTableView.swift; sourceTree = "<group>"; };
+		DF8239AF1F6B570500620F9F /* ExtensionUIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUIColor.swift; sourceTree = "<group>"; };
+		DF8239B01F6B570500620F9F /* ExtensionUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUIView.swift; sourceTree = "<group>"; };
+		DF8239B21F6B570500620F9F /* GEUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEUserModel.swift; sourceTree = "<group>"; };
+		DF8239B41F6B570500620F9F /* GEKeyframeAnimat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEKeyframeAnimat.swift; sourceTree = "<group>"; };
+		DF8239B51F6B570500620F9F /* GEManageHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEManageHUD.swift; sourceTree = "<group>"; };
+		DF8239B61F6B570500620F9F /* GERequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GERequest.swift; sourceTree = "<group>"; };
+		DF8239B71F6B570500620F9F /* GETool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GETool.swift; sourceTree = "<group>"; };
+		DF8239B81F6B570500620F9F /* PublicFundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicFundation.swift; sourceTree = "<group>"; };
+		DF8239BA1F6B570500620F9F /* GEAutoScorllView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEAutoScorllView.swift; sourceTree = "<group>"; };
+		DF8239BB1F6B570500620F9F /* GECommonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GECommonView.swift; sourceTree = "<group>"; };
+		DF8239BC1F6B570500620F9F /* GEHintView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEHintView.swift; sourceTree = "<group>"; };
+		DF8239BD1F6B570500620F9F /* GEIndicateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEIndicateView.swift; sourceTree = "<group>"; };
+		DF8239BE1F6B570500620F9F /* GEPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEPlayerView.swift; sourceTree = "<group>"; };
+		DF8239C01F6B570500620F9F /* GEHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEHeader.h; sourceTree = "<group>"; };
+		DF8239C21F6B570500620F9F /* EmitterBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterBtn.h; sourceTree = "<group>"; };
+		DF8239C31F6B570500620F9F /* EmitterBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterBtn.m; sourceTree = "<group>"; };
+		DF8239C41F6B570500620F9F /* sort-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sort-1.png"; sourceTree = "<group>"; };
+		DF8239C51F6B570500620F9F /* sort-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sort-2.png"; sourceTree = "<group>"; };
+		DF8239C61F6B570500620F9F /* sort-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sort-3.png"; sourceTree = "<group>"; };
+		DF8239C71F6B570500620F9F /* sort-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sort-4.png"; sourceTree = "<group>"; };
+		DF8239C81F6B570500620F9F /* sparkle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sparkle.png; sourceTree = "<group>"; };
+		DF8239CA1F6B570500620F9F /* GEAPIMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEAPIMacro.swift; sourceTree = "<group>"; };
+		DF8239CB1F6B570500620F9F /* GEGlobalMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEGlobalMacro.swift; sourceTree = "<group>"; };
+		DF823A0F1F6B5D5A00620F9F /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		DF823A101F6B5D5A00620F9F /* HomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		DF823A131F6B5DAD00620F9F /* MineVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineVC.swift; sourceTree = "<group>"; };
+		DF823A141F6B5DAD00620F9F /* MineVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineVC.xib; sourceTree = "<group>"; };
+		DF823A171F6B5DCD00620F9F /* SecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		DF823A181F6B5DCD00620F9F /* SecondVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondVC.xib; sourceTree = "<group>"; };
+		DF823A1B1F6B5DE800620F9F /* ThirdVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdVC.swift; sourceTree = "<group>"; };
+		DF823A1C1F6B5DE800620F9F /* ThirdVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdVC.xib; sourceTree = "<group>"; };
+		DF823A211F6BA62B00620F9F /* TestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +111,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				227C9E976012117554649BE4 /* Pods_FindYou.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7BC55E8A43C52A43A12E4DA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BF72B525349F5A9B25EB405 /* Pods-FindYou.debug.xcconfig */,
+				D4B89D11DA5320F53A2EA1BD /* Pods-FindYou.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D5703B3B6F5AC08B7FEFD772 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0F5E4C668E4383E86EE7586 /* Pods_FindYou.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DF8239841F6B56D200620F9F = {
 			isa = PBXGroup;
 			children = (
 				DF82398F1F6B56D200620F9F /* FindYou */,
 				DF82398E1F6B56D200620F9F /* Products */,
+				7BC55E8A43C52A43A12E4DA9 /* Pods */,
+				D5703B3B6F5AC08B7FEFD772 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +156,326 @@
 		DF82398F1F6B56D200620F9F /* FindYou */ = {
 			isa = PBXGroup;
 			children = (
-				DF8239901F6B56D200620F9F /* AppDelegate.swift */,
-				DF8239921F6B56D200620F9F /* ViewController.swift */,
-				DF8239941F6B56D200620F9F /* Main.storyboard */,
+				DF8239E91F6B570F00620F9F /* Appdelegate */,
+				DF8239EA1F6B588500620F9F /* Section */,
+				DF8239A21F6B570500620F9F /* GE */,
 				DF8239971F6B56D200620F9F /* Assets.xcassets */,
-				DF8239991F6B56D200620F9F /* LaunchScreen.storyboard */,
 				DF82399C1F6B56D200620F9F /* Info.plist */,
 			);
 			path = FindYou;
+			sourceTree = "<group>";
+		};
+		DF8239A21F6B570500620F9F /* GE */ = {
+			isa = PBXGroup;
+			children = (
+				DF8239A31F6B570500620F9F /* General */,
+				DF8239BF1F6B570500620F9F /* Helpers */,
+				DF8239C11F6B570500620F9F /* Library */,
+				DF8239C91F6B570500620F9F /* Macro */,
+			);
+			path = GE;
+			sourceTree = "<group>";
+		};
+		DF8239A31F6B570500620F9F /* General */ = {
+			isa = PBXGroup;
+			children = (
+				DF8239A41F6B570500620F9F /* Baisc */,
+				DF8239AA1F6B570500620F9F /* Core */,
+				DF8239AC1F6B570500620F9F /* Extension */,
+				DF8239B11F6B570500620F9F /* Models */,
+				DF8239B31F6B570500620F9F /* Pubilc */,
+				DF8239B91F6B570500620F9F /* Views */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		DF8239A41F6B570500620F9F /* Baisc */ = {
+			isa = PBXGroup;
+			children = (
+				DF8239A51F6B570500620F9F /* GEModel.swift */,
+				DF8239A61F6B570500620F9F /* GETabBarC.swift */,
+				DF8239A71F6B570500620F9F /* GEView.swift */,
+				DF8239A81F6B570500620F9F /* GEViewController.swift */,
+				DF8239A91F6B570500620F9F /* GEViewModel.swift */,
+			);
+			path = Baisc;
+			sourceTree = "<group>";
+		};
+		DF8239AA1F6B570500620F9F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DF8239AB1F6B570500620F9F /* GEBox.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		DF8239AC1F6B570500620F9F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DF8239AD1F6B570500620F9F /* ExtensionString.swift */,
+				DF8239AE1F6B570500620F9F /* ExtensionTableView.swift */,
+				DF8239AF1F6B570500620F9F /* ExtensionUIColor.swift */,
+				DF8239B01F6B570500620F9F /* ExtensionUIView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		DF8239B11F6B570500620F9F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DF8239B21F6B570500620F9F /* GEUserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DF8239B31F6B570500620F9F /* Pubilc */ = {
+			isa = PBXGroup;
+			children = (
+				DF8239B41F6B570500620F9F /* GEKeyframeAnimat.swift */,
+				DF8239B51F6B570500620F9F /* GEManageHUD.swift */,
+				DF8239B61F6B570500620F9F /* GERequest.swift */,
+				DF8239B71F6B570500620F9F /* GETool.swift */,
+				DF8239B81F6B570500620F9F /* PublicFundation.swift */,
+			);
+			path = Pubilc;
+			sourceTree = "<group>";
+		};
+		DF8239B91F6B570500620F9F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF8239BA1F6B570500620F9F /* GEAutoScorllView.swift */,
+				DF8239BB1F6B570500620F9F /* GECommonView.swift */,
+				DF8239BC1F6B570500620F9F /* GEHintView.swift */,
+				DF8239BD1F6B570500620F9F /* GEIndicateView.swift */,
+				DF8239BE1F6B570500620F9F /* GEPlayerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF8239BF1F6B570500620F9F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DF8239C01F6B570500620F9F /* GEHeader.h */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DF8239C11F6B570500620F9F /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				DF8239C21F6B570500620F9F /* EmitterBtn.h */,
+				DF8239C31F6B570500620F9F /* EmitterBtn.m */,
+				DF8239C41F6B570500620F9F /* sort-1.png */,
+				DF8239C51F6B570500620F9F /* sort-2.png */,
+				DF8239C61F6B570500620F9F /* sort-3.png */,
+				DF8239C71F6B570500620F9F /* sort-4.png */,
+				DF8239C81F6B570500620F9F /* sparkle.png */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		DF8239C91F6B570500620F9F /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				DF8239CA1F6B570500620F9F /* GEAPIMacro.swift */,
+				DF8239CB1F6B570500620F9F /* GEGlobalMacro.swift */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		DF8239E91F6B570F00620F9F /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				DF8239921F6B56D200620F9F /* ViewController.swift */,
+				DF8239901F6B56D200620F9F /* AppDelegate.swift */,
+				DF8239941F6B56D200620F9F /* Main.storyboard */,
+				DF8239991F6B56D200620F9F /* LaunchScreen.storyboard */,
+			);
+			name = Appdelegate;
+			sourceTree = "<group>";
+		};
+		DF8239EA1F6B588500620F9F /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				DF823A1F1F6B5ED600620F9F /* FindYouGeneral */,
+				DF8239EB1F6B588500620F9F /* Home */,
+				DF8239EC1F6B588500620F9F /* Mine */,
+				DF8239ED1F6B588500620F9F /* Second */,
+				DF8239EE1F6B588500620F9F /* Third */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		DF8239EB1F6B588500620F9F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DF823A001F6B5C6100620F9F /* Model */,
+				DF8239FF1F6B5C6100620F9F /* Controller */,
+				DF823A011F6B5C6100620F9F /* Service */,
+				DF823A021F6B5C6100620F9F /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DF8239EC1F6B588500620F9F /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				DF823A031F6B5C6B00620F9F /* Controller */,
+				DF823A041F6B5C6B00620F9F /* Model */,
+				DF823A051F6B5C6B00620F9F /* Service */,
+				DF823A061F6B5C6B00620F9F /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		DF8239ED1F6B588500620F9F /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				DF823A071F6B5C9C00620F9F /* Controller */,
+				DF823A081F6B5C9C00620F9F /* Model */,
+				DF823A091F6B5C9C00620F9F /* Service */,
+				DF823A0A1F6B5C9C00620F9F /* View */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		DF8239EE1F6B588500620F9F /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				DF823A0B1F6B5CD200620F9F /* Controller */,
+				DF823A0C1F6B5CD200620F9F /* Model */,
+				DF823A0D1F6B5CD200620F9F /* Service */,
+				DF823A0E1F6B5CD200620F9F /* View */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		DF8239FF1F6B5C6100620F9F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DF823A0F1F6B5D5A00620F9F /* HomeVC.swift */,
+				DF823A101F6B5D5A00620F9F /* HomeVC.xib */,
+				DF823A211F6BA62B00620F9F /* TestVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DF823A001F6B5C6100620F9F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF823A011F6B5C6100620F9F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		DF823A021F6B5C6100620F9F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF823A031F6B5C6B00620F9F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DF823A131F6B5DAD00620F9F /* MineVC.swift */,
+				DF823A141F6B5DAD00620F9F /* MineVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DF823A041F6B5C6B00620F9F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF823A051F6B5C6B00620F9F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		DF823A061F6B5C6B00620F9F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF823A071F6B5C9C00620F9F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DF823A171F6B5DCD00620F9F /* SecondVC.swift */,
+				DF823A181F6B5DCD00620F9F /* SecondVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DF823A081F6B5C9C00620F9F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF823A091F6B5C9C00620F9F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		DF823A0A1F6B5C9C00620F9F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF823A0B1F6B5CD200620F9F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DF823A1B1F6B5DE800620F9F /* ThirdVC.swift */,
+				DF823A1C1F6B5DE800620F9F /* ThirdVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DF823A0C1F6B5CD200620F9F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF823A0D1F6B5CD200620F9F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		DF823A0E1F6B5CD200620F9F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF823A1F1F6B5ED600620F9F /* FindYouGeneral */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FindYouGeneral;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +485,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF82399F1F6B56D200620F9F /* Build configuration list for PBXNativeTarget "FindYou" */;
 			buildPhases = (
+				F5EC95AA4CFDBB04AC15FD53 /* [CP] Check Pods Manifest.lock */,
 				DF8239891F6B56D200620F9F /* Sources */,
 				DF82398A1F6B56D200620F9F /* Frameworks */,
 				DF82398B1F6B56D200620F9F /* Resources */,
+				BB032B6450BF71FB8DCDEB00 /* [CP] Embed Pods Frameworks */,
+				76F3308791145414D88B9E6C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,13 +541,70 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF8239E61F6B570500620F9F /* sparkle.png in Resources */,
+				DF8239E31F6B570500620F9F /* sort-2.png in Resources */,
 				DF82399B1F6B56D200620F9F /* LaunchScreen.storyboard in Resources */,
+				DF823A161F6B5DAD00620F9F /* MineVC.xib in Resources */,
+				DF823A1E1F6B5DE800620F9F /* ThirdVC.xib in Resources */,
 				DF8239981F6B56D200620F9F /* Assets.xcassets in Resources */,
+				DF823A121F6B5D5A00620F9F /* HomeVC.xib in Resources */,
+				DF8239E41F6B570500620F9F /* sort-3.png in Resources */,
 				DF8239961F6B56D200620F9F /* Main.storyboard in Resources */,
+				DF8239E21F6B570500620F9F /* sort-1.png in Resources */,
+				DF823A1A1F6B5DCD00620F9F /* SecondVC.xib in Resources */,
+				DF8239E51F6B570500620F9F /* sort-4.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76F3308791145414D88B9E6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindYou/Pods-FindYou-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB032B6450BF71FB8DCDEB00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindYou/Pods-FindYou-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5EC95AA4CFDBB04AC15FD53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DF8239891F6B56D200620F9F /* Sources */ = {
@@ -138,7 +612,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF8239931F6B56D200620F9F /* ViewController.swift in Sources */,
+				DF8239DD1F6B570500620F9F /* GECommonView.swift in Sources */,
+				DF8239CD1F6B570500620F9F /* GETabBarC.swift in Sources */,
+				DF823A111F6B5D5A00620F9F /* HomeVC.swift in Sources */,
+				DF823A191F6B5DCD00620F9F /* SecondVC.swift in Sources */,
+				DF8239D01F6B570500620F9F /* GEViewModel.swift in Sources */,
+				DF8239DA1F6B570500620F9F /* GETool.swift in Sources */,
+				DF8239E81F6B570500620F9F /* GEGlobalMacro.swift in Sources */,
+				DF8239DF1F6B570500620F9F /* GEIndicateView.swift in Sources */,
+				DF8239DC1F6B570500620F9F /* GEAutoScorllView.swift in Sources */,
+				DF8239D71F6B570500620F9F /* GEKeyframeAnimat.swift in Sources */,
+				DF8239D31F6B570500620F9F /* ExtensionTableView.swift in Sources */,
+				DF8239D61F6B570500620F9F /* GEUserModel.swift in Sources */,
+				DF8239E01F6B570500620F9F /* GEPlayerView.swift in Sources */,
+				DF8239D11F6B570500620F9F /* GEBox.swift in Sources */,
+				DF8239CC1F6B570500620F9F /* GEModel.swift in Sources */,
+				DF8239D51F6B570500620F9F /* ExtensionUIView.swift in Sources */,
+				DF8239D21F6B570500620F9F /* ExtensionString.swift in Sources */,
+				DF823A151F6B5DAD00620F9F /* MineVC.swift in Sources */,
+				DF8239DB1F6B570500620F9F /* PublicFundation.swift in Sources */,
+				DF8239DE1F6B570500620F9F /* GEHintView.swift in Sources */,
+				DF823A221F6BA62B00620F9F /* TestVC.swift in Sources */,
+				DF8239E71F6B570500620F9F /* GEAPIMacro.swift in Sources */,
+				DF8239D81F6B570500620F9F /* GEManageHUD.swift in Sources */,
 				DF8239911F6B56D200620F9F /* AppDelegate.swift in Sources */,
+				DF823A1D1F6B5DE800620F9F /* ThirdVC.swift in Sources */,
+				DF8239CF1F6B570500620F9F /* GEViewController.swift in Sources */,
+				DF8239CE1F6B570500620F9F /* GEView.swift in Sources */,
+				DF8239E11F6B570500620F9F /* EmitterBtn.m in Sources */,
+				DF8239D41F6B570500620F9F /* ExtensionUIColor.swift in Sources */,
+				DF8239D91F6B570500620F9F /* GERequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +762,7 @@
 		};
 		DF8239A01F6B56D200620F9F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BF72B525349F5A9B25EB405 /* Pods-FindYou.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CGAM2DA629;
@@ -272,6 +776,7 @@
 		};
 		DF8239A11F6B56D200620F9F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4B89D11DA5320F53A2EA1BD /* Pods-FindYou.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CGAM2DA629;
@@ -302,6 +807,7 @@
 				DF8239A11F6B56D200620F9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
